@@ -1,23 +1,19 @@
 body {
-  background-color: #F9F5EB;
+  background-color: #edf2f4;
 }
 
 .main {
-  border: 1px solid #1C3879;
-  background-color: #1C3879;
+  border: 15px solid #d90429;
+  background-color: #ef233c;
   padding: 20px 70px 35px;
 }
 
-.heada {
-  background-color: #607EAA;
-  padding: 10px 50px 20px;
-}
 
 h1 {
   font-family: monospace, Courier-New;
   font-weight: lighter;
   font-size: 50px;
-    color: #F9F5EB;
+    color: #edf2f4;
 }
 
 h2 {
@@ -29,8 +25,9 @@ h2 {
 }
 
 .options {
-  background-color: #607EAA;
-  padding: 10px 50px 20px;
+  background-color: #2b2d42;
+    border: 15px solid #8d99ae;
+  padding: 20px 70px 35px;
 }
 
 h3 {
@@ -50,6 +47,20 @@ ol {
   font-family: Trebuchet, sans-serif;
   font-weight: lighter;
   color: #967E76;
+}
+
+.op1 {
+  font-family: monospace, Courier-New;
+  font-weight: lighter;
+  font-size: 20px;
+  color: #edf2f4;
+}
+
+.imij img {
+width: 200px;
+height: 200px;
+position:relative;
+ text-align: center;
 }
 
 h5 {
