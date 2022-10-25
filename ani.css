@@ -1,0 +1,60 @@
+body {
+  background-color: black;
+}
+
+h3 {
+  color: white;
+  font-family: cursive;
+}
+
+.ani {
+Width: 100px;
+Height: 100px;
+Background-color: red;}
+
+.ani:active {
+position: relative;
+Animation-name: square;
+Animation-duration: 4s;
+}
+
+
+
+@keyframes square {
+  0% {
+    background-color: #9A1663;
+    left:0px;
+    top:0px;
+  }
+    25% {background-color: #E0144C;
+      left:500px;
+      top:0px;
+    }
+
+      50% {background-color: #FF5858;
+        left:500px;
+        top:500px;
+        border-radius: 50%;
+
+      }
+        75% {background-color: #FF97C1;
+          left:0px;
+          top:500px;
+        }
+          100% {background-color: pink;
+            left:0px;
+            top:0px;
+            border-radius: 0%;
+          }
+}
+
+img {
+  height: 50px;
+  width: 50px;
+  float: left;
+  position: static;
+}
+
+img:hover {
+  margin-left: 1000px;
+}
