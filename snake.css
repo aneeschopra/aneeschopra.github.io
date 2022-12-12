@@ -1,0 +1,132 @@
+body{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    background-color: #172774;
+}
+.game{
+    width: 500px;
+    height: 200px;
+    border: 10px solid #FF0075;
+    border-radius: 25px;
+    background-color: #EEEEEE;
+    margin: auto;
+      place-self: center;
+}
+
+.cat2 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.cat2:hover {
+  /* Start the shake animation and make the animation last for 0.5 seconds */
+  animation: shake 0.5s;
+
+  /* When the animation is finished, start again */
+  animation-iteration-count: infinite;
+}
+
+@keyframes shake {
+  0% { transform: translate(2px, 2px) rotate(0deg); }
+  10% { transform: translate(-2px, -4px) rotate(-2deg); }
+  20% { transform: translate(-6px, 0px) rotate(2deg); }
+  30% { transform: translate(6px, 4px) rotate(0deg); }
+  40% { transform: translate(2px, -2px) rotate(2deg); }
+  50% { transform: translate(-2px, 4px) rotate(-2deg); }
+  60% { transform: translate(-6px, 2px) rotate(0deg); }
+  70% { transform: translate(6px, 2px) rotate(-2deg); }
+  80% { transform: translate(-2px, -2px) rotate(2deg); }
+  90% { transform: translate(2px, 4px) rotate(0deg); }
+  100% { transform: translate(2px, -4px) rotate(-2deg); }
+}
+
+
+.intro {
+  width: 500px;
+  height: 230px;
+  text-align: center;
+  background-color: #FF0075;
+  border: 10px solid #EEEEEE;
+    border-radius: 25px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+
+
+.cat3 {
+  margin: auto;
+  margin-bottom: 800px;
+}
+
+h1 {
+  font-family: 'Dokdo', cursive;
+font-family: 'VT323', monospace;
+color: #77D970;
+font-size: 40px;
+text-transform: uppercase;
+    animation: glow 1s ease-in-out infinite alternate;
+}
+
+/* https://www.sliderrevolution.com/resources/css-text-animation/ */
+@keyframes glow {
+    from {
+      text-shadow: 0 0 50px white;
+    }
+    to {
+      text-shadow: 0 0 50px white, 0 0 30px white;
+    }
+  }
+
+h3 {
+  font-family: 'Dokdo', cursive;
+font-family: 'VT323', monospace;
+color: #77D970;
+font-size: 25px;
+}
+
+h4 {
+  font-family: 'Dokdo', cursive;
+font-family: 'VT323', monospace;
+color: #77D970;
+
+}
+
+#character{
+    width: 38px;
+    height: 50px;
+    position:relative;
+    top: 150px;
+}
+.animate{
+    animation: jump 0.3s linear;
+}
+@keyframes jump{
+    0%{top: 150px;}
+    30%{top: 100px;}
+    70%{top: 100px;}
+    100%{top: 150px;}
+}
+
+#block{
+    background-color: #FF0075;
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 125px;
+    left: 500px;
+    animation: block 2.5s infinite linear;
+}
+@keyframes block{
+    0%{left: 500px}
+    100%{left: -20px}
+}
+p{
+    text-align: center;
+    font-family: 'Dokdo', cursive;
+font-family: 'VT323', monospace;
+color: #EEEEEE;
+font-size: 20px;
+}
